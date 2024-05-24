@@ -345,3 +345,69 @@ let books=[
     weigth:'30G',
     },
 ]
+
+//--------------------------------------------------------------------------
+
+const largo = AgregarUnLibroEncima=books.push( 
+{title:'Feel Good',
+author:'Biernay Conrrow',
+genre:'Violencia',
+lenguaje:'Ingles',
+price:'195000',
+Format:'EPUB',
+ISBN:'9789563247862',
+description:'Feel good,chka chaka',
+location:'EEUU',
+publication_date:'Mayo 2020',
+editorial:'Ediciones UC',
+pages:'300',
+dimensions:'50x30',
+weigth:'30G',
+},)
+console.log(AgregarUnLibroEncima)
+console.log(largo)
+//Agregar un libro al final.
+
+//----------------------------------------------------------------------------
+
+let QuitarLibroEncima=books.pop();
+console.log(QuitarLibroEncima);
+//Elimina el ultimo libro agregado
+
+//----------------------------------------------------------------------------
+
+let MirarLargo=books.length()
+console.log(MirarLargo);
+//mira el total de arrays existentes
+
+//-----------------------------------------------------------------------------------
+
+let AgregarInicio=books.unshift(
+    {title:'Feel Good',
+    author:'Biernay Conrrow',
+    genre:'Violencia',
+    lenguaje:'Ingles',
+    price:'195000',
+    Format:'EPUB',
+    ISBN:'9789563247862',
+    description:'Feel good,chka chaka',
+    location:'EEUU',
+    publication_date:'Mayo 2020',
+    editorial:'Ediciones UC',
+    pages:'300',
+    dimensions:'50x30',
+    weigth:'30G',
+    },) 
+//agrega elementos al principio del array  
+    console.log(AgregarInicio)
+
+
+
+    //--------------------------------------------------------------------------
+    
+let EliminarInicio=books.shift();
+console.log(EliminarInicio);
+//Elimina el primer elemento de un array
+
+
+
